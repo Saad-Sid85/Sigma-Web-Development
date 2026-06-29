@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+</head>
+
+
+<body>
+    <h1>FORM to learn the webdev</h1>
+    <form action="post">
+        <div>
+            <label for="Username">Enter your username:</label>
+            <input type="text" id="Username" name="Username" placeholder="Enter your name" required>
+        </div><br>
+        <!-- Radio buutons -->
+        <label for="gender">Select your gender:</label>
+        <div><input type="radio" id="MALE" name="gender" value="male">
+            <label for="MALE">MALE</label>
+
+            <input type="radio" id="FEMALE" name="gender" value="female">
+            <label for="FEMALE">FEMALE</label>
+        </div><br>
+
+        <!-- Checkbox -->
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">Subscribe to get premium</label>
+        </div><br>
+        <!-- Comment -->
+        <div>
+            <label for="comment">Enter your comment regarding this form: </label><br>
+            <textarea name="comment" rows="4" cols="50"></textarea>
+        </div><br>
+
+        <!-- Select box -->
+        <div>
+            <label for="fruits">Select your favorite fruit:</label><br>
+            <select name="fruits" id="fruits">
+                <option value="apple">APPPLES</option>
+                <option value="banana">BANANA</option>
+                <option value="cherry">CHERRY</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+
+</html>
